@@ -1,0 +1,128 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width:1280px;
+    margin:auto;
+}
+nav{
+    height: 50px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding :15px;
+}
+nav .logo{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li:hover{
+    /* display: inline-block;
+    padding: 10px; */
+    color:#0081fa;
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #929292;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.hero p{
+    text-align: center;
+    max-width: 500px;
+    padding-bottom: 10px;
+    margin-top: 25 px;
+}
+.hero button{
+    background-color: #787878;
+    padding: 8px 18px;
+    margin: 25px 10px;
+    border-radius: 99px;
+    border: none;
+    color: white;
+}
+
+.hero button:hover{
+    background-color: #276299;
+    padding: 8px 18px;
+    margin: 25px 10px;
+    border-radius: 99px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.card-wrapper{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-wrapper .single-card{
+    background-color: #ffffff;
+    padding:15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -100px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.150) ;
+}
+
+.card-wrapper .single-card:hover{
+    cursor: pointer;
+    background: #cafcfd;
+}
+
+.card-wrapper .single-card img{
+    width: 45px;
+    margin: 25px auto;
+    margin-top: 50px;;
+}
+.card-content h4{
+    line-height: 36px;
+}
+.card-wrapper p{
+    line-height: 1.3;
+    color: #757575;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(143, 192, 248);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+/* .footer p:hover{
+    cursor: pointer;
+} */
