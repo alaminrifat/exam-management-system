@@ -11,6 +11,16 @@ body{
     max-width:1280px;
     margin:auto;
 }
+.container .link{
+    text-decoration: none;
+}
+.container .link:hover{
+    text-decoration: none;
+    background-color: #cce6f8;
+    padding: 5px 8px;
+    border-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+}
 nav{
     height: 50px;
     background-color: #f8f8f8;
@@ -94,7 +104,7 @@ nav ul li:hover{
 
 .card-wrapper .single-card:hover{
     cursor: pointer;
-    background: #cafcfd;
+    background: #ffff;
 }
 
 .card-wrapper .single-card img{
