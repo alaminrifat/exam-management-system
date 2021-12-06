@@ -7,6 +7,7 @@ body{
     background-color: #f8f8f8;
 }
 
+
 .container {
     max-width:1280px;
     margin:auto;
@@ -50,7 +51,8 @@ nav ul li:hover{
 }
 
 .hero{
-    background-color: #929292;
+   background-color: #929292; 
+   /* background: linear-gradient(120deg, #2980b9, #8e44ad); 929292 */
     display: flex;
     flex-direction: column;
     justify-content: center;
