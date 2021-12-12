@@ -11,7 +11,7 @@ $password = $_POST['pass'];
     if($result && mysqli_num_rows($result) > 0)
     {
        // $user_data = mysqli_fetch_assoc($result);
-        header('Location: Home.html');
+        header('Location: Dashboard.html');
     }
     else{
         die('Error'. mysqli_error());

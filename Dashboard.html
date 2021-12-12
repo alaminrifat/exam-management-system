@@ -1,0 +1,35 @@
+<!DOCType html>
+<html>
+    <head>
+        <title>Examination Management - Assignment entry</title>
+        <link rel="stylesheet" href="css/dashboard.css">
+    </head>
+    <body>
+        <h1>Examination Management System</h1>
+        <a href="index.html">Home</a>
+        <hr>
+        <div class="box">
+            <h2>New Assignment Page</h2>
+            <form action="addAssignment.php" method="post">
+            <table style="width: 300px; height: 150px;border: 1px solid;">
+                <tr>
+                    <td>Course Name:</td>
+                    <td><input type="text" id="name" name="name" value=""></td>
+                </tr>
+                <tr>
+                    <td>Start Date:</td>
+                    <td><input type="date" id="dob" name="sdate"></td>
+                </tr>
+                <tr>
+                    <td>End Date:</td>
+                    <td><input type="date" id="dob" name="edate"></td>
+                </tr>                   
+                <tr>
+                    <td><input type="submit" value="Add Assignment"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>

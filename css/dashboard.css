@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    background-color: #a5c1f5;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.150) ;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input[type="date" i] {
+    font-size: 14px;
+}
+input[type="submit" i] {
+    height: 30px;
+    width: 105px;
+    margin-left: 35px;
+}
